@@ -26,5 +26,5 @@ public class Absence implements Serializable {
     @OneToOne(cascade = CascadeType.ALL)
 
     Image image;
-
+    // anis
 }
