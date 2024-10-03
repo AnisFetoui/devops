@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'principal', url: https://github.com/AnisFetoui/devops.git
+                git branch: 'main', url: https://github.com/AnisFetoui/devops.git
         }
     }
 }
