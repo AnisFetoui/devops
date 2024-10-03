@@ -36,6 +36,8 @@ public class Resources {
     @JsonIgnore
     private Stock stock;
 
+    // aniss
+
 
 
 }
