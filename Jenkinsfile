@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'principal', url: 'https://github.com/ImenHadj/Coconsult-backend.git'        }
+                git branch: 'principal', url: https://github.com/AnisFetoui/devops.git
+        }
     }
 }
 }
