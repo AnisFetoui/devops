@@ -12,7 +12,9 @@ pipeline {
         stage('Build Project') {
             steps {
                 script {
-                    sh 'mvn clean package -DskipTests'
+                    dir('.spring-boot-spring-security-jwt-authentication-master') {
+                                            sh 'mvn clean package -DskipTests'
+                                        }
                 }
             }
         }
