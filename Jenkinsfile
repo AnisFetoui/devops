@@ -9,6 +9,16 @@ pipeline {
             }
         }
 
+           stage('List files') {
+               steps {
+                   script {
+                       dir('.spring-boot-spring-security-jwt-authentication-master') {
+                           sh 'ls -la'
+                       }
+                   }
+               }
+           }
+
         stage('Build Project') {
             steps {
                 script {
